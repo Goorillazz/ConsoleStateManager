@@ -18,9 +18,9 @@ namespace ConsoleStateManager
             State = state;
         }
 
-        public string GetMassage()
+        public string GetMessage()
         {
-            return State.GetMassage();
+            return State.GetMessage();
         }
 
         public void HandleUserInput(string userInput)

@@ -2,7 +2,7 @@
 {
     public interface IState
     {
-        string GetMassage();
+        string GetMessage();
         bool IsFinished();
 
         IState GetNewState(string userInput);
